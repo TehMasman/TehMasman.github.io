@@ -1,0 +1,42 @@
+html,body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  overflow-x: hidden;
+  background-color: #f9f9f9;
+}
+
+h1,h2 {
+  margin: 0.4em 0;
+}
+h1 {
+  color: #5fad7a;
+  font-size: 3.5em;
+  font-weight: bold;
+}
+.sections{
+  padding: 20px;
+  background-color: #c9ffe0;
+}
+h2 {
+  font-weight: 400;
+  font-size: 2em;
+  color: #54996c;
+}
+h3{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  padding-bottom: 20px;
+}
+img {
+  margin-top:50px;
+   border:1px solid #021a40;
+}
+.carousel{
+width:100%;
+}
+
+.nav{
+	font-size: 12px;
+	background-color: #e8e8e8;
+}

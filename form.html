@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Moo Creek Booking Form</title>
+	</head>
+	<body>
+		<form action="payment.html" method="GET">
+			<fieldset>
+				<legend>Personal Details:</legend>
+				<label for="name">Username: <input type="text" name="username" id="name" required autofocus placeholder="Your Name" pattern="[a-zA-Z]{3,}" title="Plase enter in more than three letters">
+				<input type="text" name="email" id="email" required placeholder="Your Email" pattern="[a-zA-Z]{3,}@[a-zA-Z][3,][.]{1}[a-zA-Z]{2}" title="please enter a valid email address">
+			</fieldset>
+			<br>
+			<fieldset>
+				<legend>Booking Details</legend>
+				<label for="checkin">Booking Dates: <input type="date" name="checkin" id="checkin" min="2018-05-16">
+				<input type="date" name="checkout" id="checkout" min="2018-05-16">
+				<!--needs calander insted of date thingy
+				I'm really dumb
+				check in, check out dates, with calender that displays on click like booking.com
+				--> 
+				<br>
+				<label for="numberg">Number of Guests: <input type="number" name="numberOfGuests" id="numberg" min="1" max="4">
+				<br>
+				<input type="image" src="skweblogo">
+			</fieldset
+	</body>
+</html>

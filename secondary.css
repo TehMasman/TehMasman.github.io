@@ -1,0 +1,40 @@
+.jumbotron {
+  background-image:url('spacey.jpeg');
+  background-size: cover;
+  height: 450px;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:40px;
+}
+.jumbotron .container img{
+  float: center;
+  margin: 10 0 0 0;	
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+.jumbotron h2{
+	color: #fff;
+	font-size: 27px
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #fff;
+}
+.details h3{
+	font-family: 'Shift', sans-serif;
+	font-weight: bold;
+}
+.nav{
+	font-size: 12px;
+}
+.details p{
+	text-align: center;
+}
